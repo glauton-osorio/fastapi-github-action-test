@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# MyPy / Pylint / Ruff / other linters
+.mypy_cache/
+.dmypy.json
+.pyre/
+ruff_cache/
+pylint-report.txt
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS & Linux
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
+
+# Uvicorn log file (if any)
+uvicorn.log
+
+# SQLite database
+*.sqlite3
+
+# Local environment variables
+.env
+.env.*
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# FastAPI-specific (if using static or media dirs)
+static/
+media/
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# PyInstaller
+*.spec
+
+# VS Code launch configs (optional, if shared)
+.vscode/launch.json
